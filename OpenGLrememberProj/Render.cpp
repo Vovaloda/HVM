@@ -465,118 +465,119 @@ void Render(OpenGL* ogl)
 	double CC7[] = { 4, 4, 5 };
 	double DD7[] = { 4, 4, 0 };
 
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 
 	glBegin(GL_TRIANGLES);
+	glNormal3b(0, 0, -1);
 	glColor3d(0.9, 0.2, 0);
 	glVertex3dv(A);
 	glVertex3dv(B);
 	glVertex3dv(C);
 	glEnd();
 
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 	glColor3d(0.5, 0.2, 0);
 	glVertex3dv(D);
 	glVertex3dv(E);
 	glVertex3dv(F);
 	glEnd();
 
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 	glColor3d(0.3, 0.2, 0);
 	glVertex3dv(G);
 	glVertex3dv(H);
 	glVertex3dv(I);
 	glEnd();
 
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 	glColor3d(0.1, 0.2, 0);
 	glVertex3dv(K);
 	glVertex3dv(L);
 	glVertex3dv(M);
 	glEnd();
 
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 	glColor3d(0.1, 0.4, 0);
 	glVertex3dv(N);
 	glVertex3dv(O);
 	glVertex3dv(P);
 	glEnd();
 
-	glNormal3b(0, 0, 1);
+	glNormal3b(0, 0, -1);
 
 	glBegin(GL_TRIANGLES);
-	glColor3d(0.1, 0.7, 1);
+	glColor3d(0.1, 0.7, -1);
 	glVertex3dv(Q);
 	glVertex3dv(R);
 	glVertex3dv(S);
 	glEnd();
 
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 	glColor3d(0.9, 0.2, 0);
 	glVertex3dv(A1);
 	glVertex3dv(B1);
 	glVertex3dv(C1);
 	glEnd();
 
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 	glColor3d(0.5, 0.2, 0);
 	glVertex3dv(D1);
 	glVertex3dv(E1);
 	glVertex3dv(F1);
 	glEnd();
 
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 	glColor3d(0.3, 0.2, 0);
 	glVertex3dv(G1);
 	glVertex3dv(H1);
 	glVertex3dv(I1);
 	glEnd();
 
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 	glColor3d(0.1, 0.2, 0);
 	glVertex3dv(K1);
 	glVertex3dv(L1);
 	glVertex3dv(M1);
 	glEnd();
 
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 	glColor3d(0.1, 0.4, 0);
 	glVertex3dv(N1);
 	glVertex3dv(O1);
 	glVertex3dv(P1);
 	glEnd();
 
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 
 	glBegin(GL_TRIANGLES);
-	glNormal3b(0, 0, -1);
+	glNormal3b(0, 0, 1);
 	glColor3d(0.1, 0.7, 0);
 	glVertex3dv(Q1);
 	glVertex3dv(R1);
